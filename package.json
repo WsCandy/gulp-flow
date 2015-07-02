@@ -25,5 +25,13 @@
     "Propeller"
   ],
   "author": "Samuel Woodbridge",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WsCandy/gulp-flow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WsCandy/gulp-flow/issues"
+  },
+  "homepage": "https://github.com/WsCandy/gulp-flow#readme"
 }
