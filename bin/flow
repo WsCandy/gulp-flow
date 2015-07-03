@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+'use strict';
+
+process.bin = process.title = 'gulp-flow';
+
+var exec = require('child_process').exec;
+
+exec('fs1 gulp', function(err){
+
+    if(err) console.log(err);
+
+});
