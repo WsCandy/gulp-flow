@@ -1,8 +1,8 @@
 {
   "name": "prop-gulp",
-  "version": "1.1.0",
+  "version": "1.1.4",
   "description": "Propellers Gulp Config",
-  "main": "gulpfile.js",
+  "main": "bin/prop-gulp",
   "directories": {
     "doc": "docs"
   },
@@ -12,9 +12,21 @@
     "browser-sync": "^2.7.13",
     "gulp-uglify": "^1.1.0",
     "gulp-sass": "^1.3.2",
-    "gulp-util": "^3.0.2",
+    "gulp-util": "^3.0.0",
     "gulp-sourcemaps": "^1.3.0",
-    "sass": "^0.5.0"
+    "sass": "^0.5.0",
+    "archy": "^1.0.0",
+    "chalk": "^1.0.0",
+    "deprecated": "^0.0.1",
+    "interpret": "^0.6.2",
+    "liftoff": "^2.1.0",
+    "minimist": "^1.1.0",
+    "orchestrator": "^0.3.0",
+    "pretty-hrtime": "^1.0.0",
+    "semver": "^4.1.0",
+    "tildify": "^1.0.0",
+    "v8flags": "^2.0.2",
+    "vinyl-fs": "^0.3.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -31,7 +43,7 @@
     "url": "git+https://github.com/WsCandy/gulp-flow.git"
   },
   "bin": {
-    "flow": "bin/flow"
+    "flow": "bin/prop-gulp"
   },
   "bugs": {
     "url": "https://github.com/WsCandy/gulp-flow/issues"
